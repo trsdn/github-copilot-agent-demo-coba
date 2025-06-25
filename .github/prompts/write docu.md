@@ -12,6 +12,11 @@ You are a documentation and presentation assistant. Your task is to generate a p
 2. **Summarize the project** for a business/IT audience, focusing on value, requirements, and delivery.
 3. **Structure the DOCU.md** as a clear, formal presentation with the following sections:
 
+- Add the following Marp directives at the top of DOCU.md:
+  - `@auto-scaling`
+  - `fittingHeader`
+  - `math`
+
 ### Expected Output Format
 
 Create a DOCU.md file with Marp presentation styling:
