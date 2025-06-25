@@ -18,8 +18,8 @@ title: "Github Copilot - How to Work in Agent Mode"
 
 # A quick intro​
 
-## 🔧 GHCP Completion
-## 💬 GHCP Chat
+## 🔧 GitHub Copilot Completion
+## 💬 GitHub Copilot Chat
 
 ---
 
@@ -56,17 +56,21 @@ title: "Github Copilot - How to Work in Agent Mode"
 
 ## 🤖 AI plans & performs multi-step tasks
 ## 🛠️ Invokes tools to edit files, run commands, test code, access data
-## 👥 Like an AI pair-programmer
-## ⚡ Can apply changes directly
+## 👥 Acts as an AI pair-programmer
+## ⚡ **Benefit**: Reduces manual overhead, boosts productivity
 
 ---
 
 # What is MCP?
 
-## 🔌 Model Context Protocol
-## 🌐 Lets Copilot talk to external tools & services
-## 🎭 Examples: Playwright (browser automation), GitHub API
-## ✨ Enables Copilot to run tests, create issues, more
+## 🔌 Model Context Protocol (MCP)
+## 🌐 Allows Copilot to communicate with external tools
+
+### Examples:
+- 🎭 Playwright: Automated browser tests
+- 📂 GitHub API: Create and manage issues
+
+## ✨ Enables Copilot to run tests, automate workflows, and more
 
 ---
 
@@ -76,12 +80,11 @@ title: "Github Copilot - How to Work in Agent Mode"
 
 # Setup (Prerequisites)
 
-##  🔑 Copilot Chat & Agent Mode access
-##  🔄 Update VS Code & Copilot extension
-##  ⚙️ Enable `chat.agent` & `chat.mcp.enabled`
-##  📦 Install MCP servers (e.g. Playwright)
-##  🚀 Start MCP servers 
-##  💡 **Tip**: Enable `chat.tools.autoApprove`
+## 🔑 Copilot Chat & Agent Mode access
+## 🔄 Update VS Code & Copilot extension
+## 📦 Install MCP servers (e.g., Playwright)
+## 🚀 Start MCP servers 
+## 💡 **Tip:** Enable `chat.tools.autoApprove`
 
 ---
 
@@ -89,6 +92,10 @@ title: "Github Copilot - How to Work in Agent Mode"
 
 ##  🎉 Let's have fun!
 
+### We'll show:
+- 🧮 Creating a basic calculator
+- ✅ Automating tests via Playwright MCP
+- ⚙️ Copilot performing automated code improvements
 ---
 
 # Q&A
